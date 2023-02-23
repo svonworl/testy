@@ -1,0 +1,9 @@
+version: 1.2
+
+workflows:
+   -  name: workflow
+      publish: true
+      subclass: CWL
+      primaryDescriptorPath: /workflow.cwl
+      testParameterFiles:
+        - /empty.json
