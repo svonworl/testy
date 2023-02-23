@@ -5,6 +5,6 @@ workflows:
    -  name: workflow
       publish: true
       subclass: CWL
-      primaryDescriptorPath: /missing.cwl
+      primaryDescriptorPath: /missing2.cwl
       testParameterFiles:
         - /empty.json
