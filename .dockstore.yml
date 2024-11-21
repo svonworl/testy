@@ -7,3 +7,5 @@ workflows:
       primaryDescriptorPath: /workflow.cwl
       testParameterFiles:
         - /empty.json
+      readMePath: foo.txt
+        
