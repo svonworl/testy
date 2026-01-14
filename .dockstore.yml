@@ -7,3 +7,6 @@ workflows:
       primaryDescriptorPath: /workflow.cwl
       testParameterFiles:
         - /empty.json
+      otherFiles:
+        - /a.txt
+        - /b.txt
